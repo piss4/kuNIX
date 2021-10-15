@@ -1,5 +1,3 @@
-/*
-
 #include <stdio.h>
 #include <time.h>
 #include <string.h>
@@ -13,9 +11,7 @@
 #include <sys/stat.h>
 #include <sys/types.h>
 
-*/
-
-#include "kernel.h"
+// #include "kernel.h"
 
 void main() {
     // boot

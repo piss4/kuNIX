@@ -81,10 +81,6 @@ void execute_command(char *input) {
         asm volatile("hlt");
     }
     
-    if (compare_string(input, "EXIT") == 0) {
-        print_string("Powering off...\n");
-        asm volatile("hlt");
-    }
     print_string("Unknown command: ");
     print_string(input);
     print_string("\n> ");
